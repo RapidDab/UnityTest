@@ -16,7 +16,7 @@ public class Teleport : MonoBehaviour
         objectHeight = transform.GetComponent<MeshRenderer>().bounds.size.y / 2;
 
         Respawn();
-        Debug.Log("Hello World"); 
+        Debug.Log("Hello whatever"); 
     }
 
     // Update is called once per frame
